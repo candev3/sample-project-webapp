@@ -14,9 +14,6 @@ if (builder.Environment.IsDevelopment())
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Register our custom services
-builder.Services.AddScoped<IStudentService, StudentService>();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
