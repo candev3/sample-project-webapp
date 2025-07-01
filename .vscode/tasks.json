@@ -10,6 +10,14 @@
 			"problemMatcher": [
 				"$msCompile"
 			]
+		},
+		{
+			"label": "Run Student Management App (HTTP 5000)",
+			"type": "shell",
+			"command": "dotnet run --urls=http://0.0.0.0:5000",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": ["$msCompile"]
 		}
 	]
 }
